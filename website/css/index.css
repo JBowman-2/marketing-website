@@ -49,22 +49,13 @@ table {
 
 /* Start your code here: */
 
-
-
-
-
-div#navWrapper {
-    background-color: blue;
-}
-
 nav {
     display: flex;
     justify-content: center;
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: green;
-    border: red 1px solid;
+    background-color: black;
     
 }
 
