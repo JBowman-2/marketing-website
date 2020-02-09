@@ -1,0 +1,42 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+
+div#navWrapper {
+    background-color: blue;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: green;
+    border: red 1px solid;
+    
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    font-size: 1rem;
+    color: white;
+    
+
+}
+
+.menu li a {
+    display: block;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: .8rem 0;
+}
+
+.menu li a:hover {
+    background-color: rgb(4, 3, 83);
+    color: white;
+ }
+
+
